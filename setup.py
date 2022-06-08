@@ -6,7 +6,7 @@ with open('README.md') as readme:
 
 setup(
     name="django-clamav",
-    version='0.4.0',
+    version='0.4.1',
     keywords="python, django, clamav, antivirus, scanner, virus, libclamav, clamd",
     description="django-clamav is a django integration with Clamd (Clamav daemon).",
     long_description=readme,
@@ -25,6 +25,8 @@ setup(
         "Framework :: Django :: 1.11",
         "Framework :: Django :: 2.0",
         "Framework :: Django :: 2.1",
+        "Framework :: Django :: 3.2",
+        "Framework :: Django :: 4.0",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)",
         "Operating System :: OS Independent",
@@ -35,7 +37,10 @@ setup(
         "Programming Language :: Python :: 3.4",
         "Programming Language :: Python :: 3.5",
         "Programming Language :: Python :: 3.6",
-    ],
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9",
+     "Programming Language :: Python :: 3.10",
+     ],
     install_requires=(
         "clamd",
         "Django>=1.4",
